@@ -29,9 +29,9 @@
   display: inline-block;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-bottom: 7px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 7px solid rgba(200, 243, 9, 0.15);
   border-top: 0;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: rgba(15, 65, 226, 0.822);
   position: absolute; }
 
 .datepicker-dropdown:after {
@@ -39,7 +39,7 @@
   display: inline-block;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid #fff;
+  border-bottom: 6px solid rgb(7, 243, 19);
   border-top: 0;
   position: absolute; }
 
@@ -64,12 +64,12 @@
 .datepicker-dropdown.datepicker-orient-top:before {
   bottom: -7px;
   border-bottom: 0;
-  border-top: 7px solid rgba(0, 0, 0, 0.15); }
+  border-top: 7px solid rgba(250, 4, 4, 0.15); }
 
 .datepicker-dropdown.datepicker-orient-top:after {
   bottom: -6px;
   border-bottom: 0;
-  border-top: 6px solid #fff; }
+  border-top: 6px solid rgb(6, 234, 250); }
 
 .datepicker table {
   margin: 0;
@@ -93,11 +93,11 @@
 
 .datepicker table tr td.old,
 .datepicker table tr td.new {
-  color: #777777; }
+  color: #f707f7; }
 
 .datepicker table tr td.day:hover,
 .datepicker table tr td.focused {
-  background: #eeeeee;
+  background: #130d0d;
   cursor: pointer; }
 
 .datepicker table tr td.disabled,
